@@ -1,3 +1,4 @@
+# Britney's Strategy = Binary Search
 def find_number_binary_simple_with_value():
     """
     Finds a target number using a simplified binary search strategy, showing the guessed value.
@@ -14,12 +15,12 @@ def find_number_binary_simple_with_value():
         return
 
     low = 0
-    high = len(number_list) - 1
+    high = len(number_list) - 1  # is the worst case scenario len = counting
     tries = 0
 
     while low <= high:
         tries += 1
-        mid = (low + high) // 2
+        mid = (low + high) // 2  # floor division = whole number
         guess = number_list[mid]
 
         if guess == target_number:
