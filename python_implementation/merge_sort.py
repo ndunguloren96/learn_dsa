@@ -70,3 +70,14 @@ def merge(left, right):
         j += 1
 
     return l  # Return the merged sorted list
+
+
+# test
+alist = [45, 3, 71, 14, 9, 23, 37, 11, 6, 17]
+print("Unsorted list:", alist)
+s = merge_sort(alist)
+print("Sorted list:", s)
+
+# Output:
+# Unsorted list: [45, 3, 71, 14, 9, 23, 37, 11, 6, 17]
+# Sorted list: [3, 6, 9, 11, 14, 17, 23, 37, 45, 71]
