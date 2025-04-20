@@ -1,11 +1,4 @@
-# Approach/step 1: Top-down Design and writing a code scaffold.
-
-# ---How it is done---
-# 1. You first outline the structure, main features, and steps (sometimes with comments or docstrings).
-# 2. Then fill in the actual logic.
-# 3. This helps clarify your thinking and makes the code easier to implement and maintain.
-
-
+# Merge Sort Implementation in Python
 def merge_sort(list):
     """
     Merge Sort Algorithm
@@ -34,3 +27,15 @@ left = merge_sort(left_half)
 right = merge_sort(right_half)
 
 return merge(left, right)
+
+
+def split(list):
+    """
+    Divide the unsorted list at the midpoint into sublists
+    Returns two lists - the left and right sublists
+    """
+
+    mid = len(list) // 2
+    left = list[:mid]  # does not include mid
+    right = list[mid:]  # includes mid
+    return left, right
