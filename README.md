@@ -58,11 +58,10 @@ This project is licensed under the MIT License. See the [LICENSE](./LICENSE) fil
 
 Contributions are welcome! Feel free to open issues or submit pull requests to improve the codebase or add new algorithms and data structures.
 
-
-#Author
+**Author**
 https://github.com/ndunguloren96
 
-#Collaborators
+**Collaborators**
 https://github.com/Antonymwangi20
 https://github.com/LilianDev-dev
 https://github.com/Vee-Mukoma
@@ -71,3 +70,4 @@ https://github.com/RobinsKarani
 https://github.com/Picklelegend
 Myself: https://github.com/ndunguloren96
 
+Reference: https://youtu.be/8hly31xKli0
